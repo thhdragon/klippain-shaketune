@@ -22,7 +22,7 @@ function preflight_checks {
         echo "[ERROR] Python 3 is not installed. Please install Python 3 to use the Shake&Tune module!"
         exit -1
     fi
-
+     
     install_package_requirements
 }
 
